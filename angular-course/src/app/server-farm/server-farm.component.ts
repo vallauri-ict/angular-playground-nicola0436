@@ -7,21 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerFarmComponent implements OnInit {
 
-  //servers =[{serverID:32,serverStatus:"TestServer 1"},{serverID:33,serverStatus:"TestServer 2"}];
-  servers=[];
-  serverName:string='';
-  serverCreated:boolean=false;
+  serverName: String = '';
+  serverCreated: Boolean = false;
+  servers = [];
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  onCreateServer(){
+  onCreateServer() {
     this.servers.push('');
-    this.serverCreated=true;
-    //setTimeout(()=>{this.serverCreated=false;},2000);
+    this.serverCreated = true;
   }
-  onChangeServerName(){
-    this.serverCreated=false;
+
+  onChangeServerName() {
+    this.serverCreated = false;
   }
+
 }

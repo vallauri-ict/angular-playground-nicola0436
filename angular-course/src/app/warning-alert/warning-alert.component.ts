@@ -1,21 +1,21 @@
-import{Component} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-selector:'app-warning-alert',
-templateUrl:'warning-alert.component.html',
-styleUrls: ['warning-alert.component.css']
+  selector: 'app-warning-alert',
+  templateUrl: './warning-alert.component.html',
+  styleUrls: ['./warning-alert.component.css']
 })
+export class WarningAlertComponent implements OnInit {
 
-export class WarningAlertComponent{
-    numVulnerabilities: number;
-    stSeverity: string;
-    constructor(){
-        this.numVulnerabilities = Math.floor(Math.random()*20)+1;
-        this.stSeverity = this.numVulnerabilities < 10 ? "Low" : "SEVERE";
-    }
+  numVulnerabilities: Number;
+  stSeverity: String;
 
-    getParagraphStyle(){
-        let stStyle:string= this.numVulnerabilities>9 ? 'bold' : 'normal';
-        return {fontWeight:stStyle};
-    }
+  constructor() {
+    this.numVulnerabilities = Math.floor(Math.random() * 20) + 1;
+    this.stSeverity = this.numVulnerabilities < 10 ? 'Low' : 'SEVERE';
+  }
+
+  ngOnInit(): void {
+  }
+
 }

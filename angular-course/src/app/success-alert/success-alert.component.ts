@@ -9,7 +9,7 @@ export class SuccessAlertComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {    //equivale al form-load
+  ngOnInit(): void {
   }
 
 }
