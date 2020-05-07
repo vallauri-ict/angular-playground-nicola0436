@@ -2,14 +2,14 @@
 This project was created during S.Y. 2019/2020.
 
 ## Contributor
-Panero Nicola - 5B INF - S.Y. 2019/20 - IIS G. Vallauri - Fossano (CN)<br>
+Panero Nicola - 5B INF - S.Y. 2019/20 - IIS G. Vallauri - Fossano (CN)
 
 ## Introduction
 The folder contains all projects developed in Angular during the S.Y.
 
 root
-  +--- angular-course
-  +--- my-recipes
+  + angular-course
+  + my-recipes
   + README.md
 
 ## Prerequisites

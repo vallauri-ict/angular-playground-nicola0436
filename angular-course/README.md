@@ -1,5 +1,5 @@
 # angular-course
-
+Panero Nicola 5B inf
 Test project with components creation, classes, attributes, properties, binding.
 
 Tests with `[ngStyle]`, `[ngClass]`, `{{ }}`, `*ngIf`, `[(ngModel)]`
